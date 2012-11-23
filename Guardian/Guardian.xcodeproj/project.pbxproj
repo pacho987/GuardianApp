@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF27ADA0165F2711005D2C05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF27AD9F165F2711005D2C05 /* UIKit.framework */; };
+		FF27ADA2165F2711005D2C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF27ADA1165F2711005D2C05 /* Foundation.framework */; };
+		FF27ADA4165F2711005D2C05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF27ADA3165F2711005D2C05 /* CoreGraphics.framework */; };
+		FF27ADA6165F2711005D2C05 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF27ADA5165F2711005D2C05 /* CoreData.framework */; };
+		FF27ADAC165F2711005D2C05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF27ADAA165F2711005D2C05 /* InfoPlist.strings */; };
+		FF27ADAE165F2711005D2C05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF27ADAD165F2711005D2C05 /* main.m */; };
+		FF27ADB2165F2711005D2C05 /* GuardianAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF27ADB1165F2711005D2C05 /* GuardianAppDelegate.m */; };
+		FF27ADB4165F2711005D2C05 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF27ADB3165F2711005D2C05 /* Default.png */; };
+		FF27ADB6165F2711005D2C05 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF27ADB5165F2711005D2C05 /* Default@2x.png */; };
+		FF27ADB8165F2711005D2C05 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF27ADB7165F2711005D2C05 /* Default-568h@2x.png */; };
+		FF27ADBB165F2711005D2C05 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF27ADB9165F2711005D2C05 /* MainStoryboard_iPhone.storyboard */; };
+		FF27ADBE165F2711005D2C05 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF27ADBC165F2711005D2C05 /* MainStoryboard_iPad.storyboard */; };
+		FF27ADC1165F2711005D2C05 /* Guardian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF27ADBF165F2711005D2C05 /* Guardian.xcdatamodeld */; };
+		FF27ADC4165F2711005D2C05 /* GuardianMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF27ADC3165F2711005D2C05 /* GuardianMainViewController.m */; };
+		FF27ADC7165F2711005D2C05 /* GuardianFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF27ADC6165F2711005D2C05 /* GuardianFlipsideViewController.m */; };
+		FF27ADCF165F2711005D2C05 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF27ADCE165F2711005D2C05 /* SenTestingKit.framework */; };
+		FF27ADD0165F2711005D2C05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF27AD9F165F2711005D2C05 /* UIKit.framework */; };
+		FF27ADD1165F2711005D2C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF27ADA1165F2711005D2C05 /* Foundation.framework */; };
+		FF27ADD2165F2711005D2C05 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF27ADA5165F2711005D2C05 /* CoreData.framework */; };
+		FF27ADDA165F2711005D2C05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF27ADD8165F2711005D2C05 /* InfoPlist.strings */; };
+		FF27ADDD165F2711005D2C05 /* GuardianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF27ADDC165F2711005D2C05 /* GuardianTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF27ADD3165F2711005D2C05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF27AD92165F2711005D2C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF27AD9A165F2711005D2C05;
+			remoteInfo = Guardian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF27AD9B165F2711005D2C05 /* Guardian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guardian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF27AD9F165F2711005D2C05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF27ADA1165F2711005D2C05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF27ADA3165F2711005D2C05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF27ADA5165F2711005D2C05 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FF27ADA9165F2711005D2C05 /* Guardian-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Guardian-Info.plist"; sourceTree = "<group>"; };
+		FF27ADAB165F2711005D2C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF27ADAD165F2711005D2C05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF27ADAF165F2711005D2C05 /* Guardian-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Guardian-Prefix.pch"; sourceTree = "<group>"; };
+		FF27ADB0165F2711005D2C05 /* GuardianAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuardianAppDelegate.h; sourceTree = "<group>"; };
+		FF27ADB1165F2711005D2C05 /* GuardianAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuardianAppDelegate.m; sourceTree = "<group>"; };
+		FF27ADB3165F2711005D2C05 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FF27ADB5165F2711005D2C05 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FF27ADB7165F2711005D2C05 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF27ADBA165F2711005D2C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FF27ADBD165F2711005D2C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		FF27ADC0165F2711005D2C05 /* Guardian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Guardian.xcdatamodel; sourceTree = "<group>"; };
+		FF27ADC2165F2711005D2C05 /* GuardianMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuardianMainViewController.h; sourceTree = "<group>"; };
+		FF27ADC3165F2711005D2C05 /* GuardianMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuardianMainViewController.m; sourceTree = "<group>"; };
+		FF27ADC5165F2711005D2C05 /* GuardianFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuardianFlipsideViewController.h; sourceTree = "<group>"; };
+		FF27ADC6165F2711005D2C05 /* GuardianFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuardianFlipsideViewController.m; sourceTree = "<group>"; };
+		FF27ADCD165F2711005D2C05 /* GuardianTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuardianTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF27ADCE165F2711005D2C05 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF27ADD7165F2711005D2C05 /* GuardianTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuardianTests-Info.plist"; sourceTree = "<group>"; };
+		FF27ADD9165F2711005D2C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF27ADDB165F2711005D2C05 /* GuardianTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuardianTests.h; sourceTree = "<group>"; };
+		FF27ADDC165F2711005D2C05 /* GuardianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuardianTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF27AD98165F2711005D2C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF27ADA0165F2711005D2C05 /* UIKit.framework in Frameworks */,
+				FF27ADA2165F2711005D2C05 /* Foundation.framework in Frameworks */,
+				FF27ADA4165F2711005D2C05 /* CoreGraphics.framework in Frameworks */,
+				FF27ADA6165F2711005D2C05 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF27ADC9165F2711005D2C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF27ADCF165F2711005D2C05 /* SenTestingKit.framework in Frameworks */,
+				FF27ADD0165F2711005D2C05 /* UIKit.framework in Frameworks */,
+				FF27ADD1165F2711005D2C05 /* Foundation.framework in Frameworks */,
+				FF27ADD2165F2711005D2C05 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF27AD90165F2711005D2C05 = {
+			isa = PBXGroup;
+			children = (
+				FF27ADA7165F2711005D2C05 /* Guardian */,
+				FF27ADD5165F2711005D2C05 /* GuardianTests */,
+				FF27AD9E165F2711005D2C05 /* Frameworks */,
+				FF27AD9C165F2711005D2C05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF27AD9C165F2711005D2C05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF27AD9B165F2711005D2C05 /* Guardian.app */,
+				FF27ADCD165F2711005D2C05 /* GuardianTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF27AD9E165F2711005D2C05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF27AD9F165F2711005D2C05 /* UIKit.framework */,
+				FF27ADA1165F2711005D2C05 /* Foundation.framework */,
+				FF27ADA3165F2711005D2C05 /* CoreGraphics.framework */,
+				FF27ADA5165F2711005D2C05 /* CoreData.framework */,
+				FF27ADCE165F2711005D2C05 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF27ADA7165F2711005D2C05 /* Guardian */ = {
+			isa = PBXGroup;
+			children = (
+				FF27ADB0165F2711005D2C05 /* GuardianAppDelegate.h */,
+				FF27ADB1165F2711005D2C05 /* GuardianAppDelegate.m */,
+				FF27ADB9165F2711005D2C05 /* MainStoryboard_iPhone.storyboard */,
+				FF27ADBC165F2711005D2C05 /* MainStoryboard_iPad.storyboard */,
+				FF27ADC2165F2711005D2C05 /* GuardianMainViewController.h */,
+				FF27ADC3165F2711005D2C05 /* GuardianMainViewController.m */,
+				FF27ADC5165F2711005D2C05 /* GuardianFlipsideViewController.h */,
+				FF27ADC6165F2711005D2C05 /* GuardianFlipsideViewController.m */,
+				FF27ADBF165F2711005D2C05 /* Guardian.xcdatamodeld */,
+				FF27ADA8165F2711005D2C05 /* Supporting Files */,
+			);
+			path = Guardian;
+			sourceTree = "<group>";
+		};
+		FF27ADA8165F2711005D2C05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF27ADA9165F2711005D2C05 /* Guardian-Info.plist */,
+				FF27ADAA165F2711005D2C05 /* InfoPlist.strings */,
+				FF27ADAD165F2711005D2C05 /* main.m */,
+				FF27ADAF165F2711005D2C05 /* Guardian-Prefix.pch */,
+				FF27ADB3165F2711005D2C05 /* Default.png */,
+				FF27ADB5165F2711005D2C05 /* Default@2x.png */,
+				FF27ADB7165F2711005D2C05 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF27ADD5165F2711005D2C05 /* GuardianTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF27ADDB165F2711005D2C05 /* GuardianTests.h */,
+				FF27ADDC165F2711005D2C05 /* GuardianTests.m */,
+				FF27ADD6165F2711005D2C05 /* Supporting Files */,
+			);
+			path = GuardianTests;
+			sourceTree = "<group>";
+		};
+		FF27ADD6165F2711005D2C05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF27ADD7165F2711005D2C05 /* GuardianTests-Info.plist */,
+				FF27ADD8165F2711005D2C05 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF27AD9A165F2711005D2C05 /* Guardian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF27ADE0165F2711005D2C05 /* Build configuration list for PBXNativeTarget "Guardian" */;
+			buildPhases = (
+				FF27AD97165F2711005D2C05 /* Sources */,
+				FF27AD98165F2711005D2C05 /* Frameworks */,
+				FF27AD99165F2711005D2C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guardian;
+			productName = Guardian;
+			productReference = FF27AD9B165F2711005D2C05 /* Guardian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF27ADCC165F2711005D2C05 /* GuardianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF27ADE3165F2711005D2C05 /* Build configuration list for PBXNativeTarget "GuardianTests" */;
+			buildPhases = (
+				FF27ADC8165F2711005D2C05 /* Sources */,
+				FF27ADC9165F2711005D2C05 /* Frameworks */,
+				FF27ADCA165F2711005D2C05 /* Resources */,
+				FF27ADCB165F2711005D2C05 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF27ADD4165F2711005D2C05 /* PBXTargetDependency */,
+			);
+			name = GuardianTests;
+			productName = GuardianTests;
+			productReference = FF27ADCD165F2711005D2C05 /* GuardianTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF27AD92165F2711005D2C05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Guardian;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Diego Francisco Castillo Velasquez";
+			};
+			buildConfigurationList = FF27AD95165F2711005D2C05 /* Build configuration list for PBXProject "Guardian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF27AD90165F2711005D2C05;
+			productRefGroup = FF27AD9C165F2711005D2C05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF27AD9A165F2711005D2C05 /* Guardian */,
+				FF27ADCC165F2711005D2C05 /* GuardianTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF27AD99165F2711005D2C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF27ADAC165F2711005D2C05 /* InfoPlist.strings in Resources */,
+				FF27ADB4165F2711005D2C05 /* Default.png in Resources */,
+				FF27ADB6165F2711005D2C05 /* Default@2x.png in Resources */,
+				FF27ADB8165F2711005D2C05 /* Default-568h@2x.png in Resources */,
+				FF27ADBB165F2711005D2C05 /* MainStoryboard_iPhone.storyboard in Resources */,
+				FF27ADBE165F2711005D2C05 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF27ADCA165F2711005D2C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF27ADDA165F2711005D2C05 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF27ADCB165F2711005D2C05 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF27AD97165F2711005D2C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF27ADAE165F2711005D2C05 /* main.m in Sources */,
+				FF27ADB2165F2711005D2C05 /* GuardianAppDelegate.m in Sources */,
+				FF27ADC1165F2711005D2C05 /* Guardian.xcdatamodeld in Sources */,
+				FF27ADC4165F2711005D2C05 /* GuardianMainViewController.m in Sources */,
+				FF27ADC7165F2711005D2C05 /* GuardianFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF27ADC8165F2711005D2C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF27ADDD165F2711005D2C05 /* GuardianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF27ADD4165F2711005D2C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF27AD9A165F2711005D2C05 /* Guardian */;
+			targetProxy = FF27ADD3165F2711005D2C05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF27ADAA165F2711005D2C05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF27ADAB165F2711005D2C05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF27ADB9165F2711005D2C05 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF27ADBA165F2711005D2C05 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FF27ADBC165F2711005D2C05 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF27ADBD165F2711005D2C05 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FF27ADD8165F2711005D2C05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF27ADD9165F2711005D2C05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF27ADDE165F2711005D2C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF27ADDF165F2711005D2C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF27ADE1165F2711005D2C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guardian/Guardian-Prefix.pch";
+				INFOPLIST_FILE = "Guardian/Guardian-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF27ADE2165F2711005D2C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guardian/Guardian-Prefix.pch";
+				INFOPLIST_FILE = "Guardian/Guardian-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF27ADE4165F2711005D2C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Guardian.app/Guardian";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guardian/Guardian-Prefix.pch";
+				INFOPLIST_FILE = "GuardianTests/GuardianTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FF27ADE5165F2711005D2C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Guardian.app/Guardian";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guardian/Guardian-Prefix.pch";
+				INFOPLIST_FILE = "GuardianTests/GuardianTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF27AD95165F2711005D2C05 /* Build configuration list for PBXProject "Guardian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF27ADDE165F2711005D2C05 /* Debug */,
+				FF27ADDF165F2711005D2C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF27ADE0165F2711005D2C05 /* Build configuration list for PBXNativeTarget "Guardian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF27ADE1165F2711005D2C05 /* Debug */,
+				FF27ADE2165F2711005D2C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF27ADE3165F2711005D2C05 /* Build configuration list for PBXNativeTarget "GuardianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF27ADE4165F2711005D2C05 /* Debug */,
+				FF27ADE5165F2711005D2C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF27ADBF165F2711005D2C05 /* Guardian.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF27ADC0165F2711005D2C05 /* Guardian.xcdatamodel */,
+			);
+			currentVersion = FF27ADC0165F2711005D2C05 /* Guardian.xcdatamodel */;
+			path = Guardian.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF27AD92165F2711005D2C05 /* Project object */;
+}
